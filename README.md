@@ -12,7 +12,7 @@
 
 ## Video Presentation
 
-🎥 [YouTube link (unlisted)]()
+🎥 [YouTube link (unlisted)](https://youtu.be/CfHzCPOmaCE?si=JVn6lo-9uEIHsmEw)
 
 ---
 
@@ -23,7 +23,7 @@
 | order-analytics-service (new) | Node.js | [order-analytics-service](https://github.com/kramikamal/order-analytics-service) |
 | order-service | Node.js | [order-service-lab2](https://github.com/kramikamal/order-service-lab2) |
 | product-service | Python | [product-service-L3P](https://github.com/kramikamal/product-service-L3P) |
-| store-front | Vue.js | [store-front-lab2](https://github.com/kramikamal/store-front-lab2) |
+| store-front | Vue.js | [store-front-lab2](https://github.com/mehe0005/store-front-lab2) |
 
 ---
 
@@ -65,51 +65,14 @@ All dependencies are explicitly declared in the repository's respective dependen
 All configurations, including conncetion strings and port numbers, are stored in the environment and referenced using `dotenv` libraries.
 ### IV. Backing Services
 RabbitMQ is treated as an interchangeable resource and is only referenced using a connection string stored in the environment.
----
-
-## Section 4: Local Testing
-### Setup
-- **RabbitMQ**: Run inside a Docker container (rabbitmq:4.3.6-management)
-- 4 services installed and listening on different ports
-- Config stored in .env files
-
-### Testing
-
-- Multiple orders placed through store front
-- All analytics endpoints tested with Postman
-- RabbitMQ queue contents checked to verify message consumption
-
-### Results
-
-- All services communicating correctly
-- All orders confirmed to reach the order analytics service
-- Order analytics data was correct
-- Queue confirmed to be empty
-
 
 ---
 
-## Section 5: Azure Deployment
-
----
-
-## Section 6: System Architecture Diagram
+## Section 4: System Architecture Diagram
 
 ![Architecture Diagram](images/pet-store-deployment-architecture.png)
----
-
-## Challenges and Lessons Learned
-
-> _[Optional: setup problems we had and what we learned.]_
-
 ---
 
 ## AI Use Disclosure
 
 AI was used to create the boilerplate code for the order analytics service  
-
----
-
-## References
-
-- [Example](link)
