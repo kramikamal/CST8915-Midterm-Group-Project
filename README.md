@@ -4,9 +4,9 @@
 
 | Member      | Task                                                                                                                                                                 |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Kamal Krami | Section 1: Order Analytics Service<br>Section 2: RabbitMQ Consumer Pattern and Justification<br>Section 3: 12-Factor App Compliance<br>Section 4: Local Testing |
-| Naol Meherete | Section 5: Azure Deployment                                                                                                                                        |
-| Angus Macgillivary | Section 6: System Architecture Diagram<br>Report (README)                                                                                                     |
+| Kamal Krami | Section 1: Order Analytics Service<br>Section 2: RabbitMQ Consumer Pattern and Justification<br>Section 3: 12-Factor App Compliance<br>|
+| Naol Meherete | Azure Deployment                                                                                                                                        |
+| Angus Macgillivary | Section 4: System Architecture Diagram<br>Report (README)                                                                                                     |
 
 ---
 
